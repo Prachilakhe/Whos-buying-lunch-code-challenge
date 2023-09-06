@@ -3,10 +3,8 @@ function whosPaying(names) {
     /******Don't change the code above*******/
         
         //Write your code here.
-        names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
-        var numberOfPeople = names.length;
-        var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
-        var randomPerson = names[randomPersonPosition];
-        return randomPerson + " is going to buy lunch today!";
+       names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+      let nameChosen = names[names.length *Math.random() | 0];
+ 
     /******Don't change the code below*******/    
     }
